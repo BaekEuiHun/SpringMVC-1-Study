@@ -25,7 +25,7 @@ public class MemberSaveServlet extends HttpServlet {
 
         Member member = new Member(username, age);
         memberRepository.save(member);
-ㅁ
+
         response.setContentType("text/html");
         response.setCharacterEncoding("utf-8");
         PrintWriter w = response.getWriter();
